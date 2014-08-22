@@ -1,2 +1,7 @@
 out/
 *.class
+.gradle/
+selenium-cucumber.iml
+selenium-cucumber.ipr
+selenium-cucumber.iws
+
