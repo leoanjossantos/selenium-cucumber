@@ -11,8 +11,8 @@ dependencies {
     compile 'org.projectlombok:lombok:1.12.2'
     testCompile 'junit:junit:4.11'
 
-    testCompile 'info.cukes:cucumber-core:1.1.5'
-    testCompile 'info.cukes:cucumber-java:1.1.5'
-    testCompile 'info.cukes:cucumber-junit:1.1.5'
-    testCompile 'info.cukes:cucumber-picocontainer:1.1.5'
+    testCompile 'info.cukes:cucumber-core:1.1.8'
+    testCompile 'info.cukes:cucumber-java:1.1.8'
+    testCompile 'info.cukes:cucumber-junit:1.1.8'
+    testCompile 'info.cukes:cucumber-picocontainer:1.1.8'
 }
