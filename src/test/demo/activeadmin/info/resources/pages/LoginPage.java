@@ -14,6 +14,7 @@ public class LoginPage {
     private static final By SUBMIT_BUTTON = By.name("commit");
 
     public static void access() {
+
         get(LOGIN_URL);
     }
 
