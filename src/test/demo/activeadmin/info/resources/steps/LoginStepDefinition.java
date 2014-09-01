@@ -31,8 +31,8 @@ public class LoginStepDefinition {
         LoginPage.login(user);
     }
 
-    @Então("^vejo a mensagem de boas vindas \"([^\"]*)\"$")
-    public void vejo_a_mensagem_de_boas_vindas(String output) throws Throwable {
+    @Então("^sould see message of the welcomes \"([^\"]*)\"$")
+    public void sould_see_message_of_the_welcomes(String output) throws Throwable {
         assertTrue(DashboardPage.displaysWelcomeMessage(output));
     }
 
