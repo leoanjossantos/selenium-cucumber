@@ -10,6 +10,7 @@ public class ProductDetailsPage {
     private static final By MESSAGE = By.cssSelector("div.flash");
 
     public static boolean displaysMessage(String output) {
+
         return output.equals(waitForElement(MESSAGE).getText());
     }
 
